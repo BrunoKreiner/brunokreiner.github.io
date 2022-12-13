@@ -26,7 +26,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1aL6RGGLl8D9G_q5gvBD7rMtfwHQI-YTu/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1ql-SKNCUIsfc5DE3_iBtAacsocMtTQVo/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',

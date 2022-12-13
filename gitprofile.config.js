@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'brunokreiner', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,81 +11,75 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'kreinbru',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
+    website: 'https://brunokreiner.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'brunokreiner@hotmail.ch',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1aL6RGGLl8D9G_q5gvBD7rMtfwHQI-YTu/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'PyTorch',
+    'Pandas',
+    'Numpy',
+    'Selenium',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Apache Kafka',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'University of Applied Sciences Northwestern Switzerland',
+      position: 'Student Assistant',
+      from: 'Sep 2021',
+      to: 'Dec 2021',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Wunderman Thompson (formerly Y&R Group Switzerland',
+      position: 'Software Development Apprentrieship',
+      from: 'Jul 2015',
+      to: 'Aug 2019',
+      companyLink: '',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Trainer C',
+      body: 'Table Tennis Trainer Certificate from J+S',
+      year: 'Aug 2022',
+      link: 'https://www.jugendundsport.ch/de/sportarten/tischtennis-uebersicht.html'
     },
-  ], */
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Applied Sciences Northwestern Switzerland',
+      degree: 'BSc Data Science',
+      from: 'Feb 2021',
+      to: 'Jul 2023 (Continuation)',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Zurich University of Applied Sciences',
+      degree: 'BSc Engineering and Management',
+      from: 'Sep 2019',
+      to: 'Feb 2021 (Basics)',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'brunokreiner', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -93,7 +87,7 @@ const config = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3286522',
     snippetVersion: 6,
   },
   themeConfig: {

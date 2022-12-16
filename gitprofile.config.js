@@ -17,7 +17,7 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: '@brunokreiner',
     dev: '',
     stackoverflow: '', // format: userid/username
     website: 'https://brunokreiner.github.io',
@@ -79,7 +79,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: 'brunokreiner', // to hide blog section, keep it empty
+    username: '@brunokreiner', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {

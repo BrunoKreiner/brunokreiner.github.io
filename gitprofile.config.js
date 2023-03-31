@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'brunokreiner', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 6, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ["brunokreiner.github.io"], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -47,8 +47,8 @@ const config = {
       companyLink: '',
     },
     {
-      company: 'Wunderman Thompson (formerly Y&R Group Switzerland',
-      position: 'Software Development Apprentrieship',
+      company: 'Wunderman Thompson (formerly Y&R Group Switzerland)',
+      position: 'Software Development Apprentriceship',
       from: 'Jul 2015',
       to: 'Aug 2019',
       companyLink: '',
@@ -57,7 +57,7 @@ const config = {
   certifications: [
     {
       name: 'Trainer C',
-      body: 'Table Tennis Trainer Certificate from J+S',
+      body: 'Table Tennis Instructor Certificate from J+S',
       year: 'Aug 2022',
       link: 'https://www.jugendundsport.ch/de/sportarten/tischtennis-uebersicht.html'
     },

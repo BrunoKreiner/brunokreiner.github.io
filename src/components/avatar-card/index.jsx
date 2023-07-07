@@ -54,7 +54,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
               ? skeleton({ width: 'w-48', height: 'h-5' })
               : profile.bio}
           <div class="mt-3">
-            Welcome to my portfolio! I'm a BSc Data Science Student @<a class="fhnw-link" href='https://www.fhnw.ch'>FHNW</a> in my last year and I'm currently looking for a part-time position starting in February or a full-time position starting in July. You can download my full resume below:
+            Welcome to my portfolio! I'm a BSc Data Science Student @<a class="fhnw-link" href='https://www.fhnw.ch'>FHNW</a> in my last semester and I'm currently looking for a full-time position starting starting in September. You can download my full resume below:
           </div>  
           </div>
         </div>
